@@ -13,8 +13,12 @@ body {
     align-items: center;
 }
 
-.navbar h2 {
+.navbar a.logo {
     color: white;
+}
+
+.navbar a.logo:hover {
+    color: rgba(255, 255, 255, 0.808);
 }
 
 ul {
@@ -23,12 +27,17 @@ ul {
     gap: 50px
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: rgb(131, 200, 240);
+    font-weight: bolder;
 }
 
-.connect-with-twitch {
+.navbar a:hover {
+    color: rgb(180, 223, 248);
+}
+
+.navbar button {
     background-color: rgb(0, 204, 68);
     color: rgb(233, 233, 233);
     font-weight: 700;
@@ -36,6 +45,10 @@ a {
     border-radius: 30px;
     border: 0px;
     letter-spacing: 1px
+}
+
+.navbar button:hover {
+    background-color: rgba(0, 204, 68, 0.74);
 }
 
 .container {
@@ -66,7 +79,7 @@ a {
     line-height: 1.5;
 }
 
-.container .control-panel {
+.container button {
     background-color: rgba(22, 255, 41, 0.575);
     color: white;
     font-weight: 800;
@@ -78,12 +91,25 @@ a {
     margin-right: 20px
 }
 
+.container button:hover {
+    background-color: rgba(22, 255, 41, 0.377);
+}
+
 .container a {
     color: white;
-    
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.container a:hover {
+    color: rgb(216, 216, 216);
+    text-decoration: underline;
 }
 
 .container .col-2 {
     transform: rotateY(-30deg) rotateX(15deg);
     box-shadow: 10px 10px 50px black;
 }
+
+/* ICONS WITH TEXT SECTION */
