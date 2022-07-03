@@ -13,6 +13,10 @@ body {
     align-items: center;
 }
 
+.navbar h2 {
+    color: white;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -21,4 +25,65 @@ ul {
 
 a {
     text-decoration: none;
+    color: rgb(131, 200, 240);
+}
+
+.connect-with-twitch {
+    background-color: rgb(0, 204, 68);
+    color: rgb(233, 233, 233);
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 0px;
+    letter-spacing: 1px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 150px 0;
+    border-radius: 50%;
+}
+
+.container .col-1 {
+    width: 500px;
+    color: white;
+}
+
+.container .col-1 h1 {
+    font-size: 46px;
+    font-weight: lighter;
+    margin-bottom: -10px;
+    margin-right: 100px;
+}
+
+.container .col-1 p {
+    font-size: 1.15rem;
+    font-weight: lighter;
+    color: #9eb8ff;
+    line-height: 1.5;
+}
+
+.container .control-panel {
+    background-color: rgba(22, 255, 41, 0.575);
+    color: white;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 16px 20px;
+    border-radius: 30px;
+    border: 0px;
+    margin-right: 20px
+}
+
+.container a {
+    color: white;
+    
+}
+
+.container .col-2 {
+    transform: rotateY(-30deg) rotateX(15deg);
+    box-shadow: 10px 10px 50px black;
 }
