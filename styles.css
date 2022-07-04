@@ -9,8 +9,9 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 90px;
 }
 
 .navbar a.logo {
@@ -30,7 +31,6 @@ ul {
 .navbar a {
     text-decoration: none;
     color: rgb(131, 200, 240);
-    font-weight: bolder;
 }
 
 .navbar a:hover {
@@ -100,6 +100,7 @@ ul {
     font-size: 11px;
     letter-spacing: 2px;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .container a:hover {
@@ -110,6 +111,43 @@ ul {
 .container .col-2 {
     transform: rotateY(-30deg) rotateX(15deg);
     box-shadow: 10px 10px 50px black;
+}
+
+.selling-points-section {
+    background-color: white;
+}
+
+.selling-points-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 330px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 90px 0;
+}
+
+.card h3 {
+    margin-bottom: 0;
+}
+
+.card p {
+    margin-top: 6px;
+    color: rgb(122, 122, 122);
+
 }
 
 /* ICONS WITH TEXT SECTION */
