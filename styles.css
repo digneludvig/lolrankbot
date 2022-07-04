@@ -134,7 +134,7 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 330px;
+    width: 322px;
     font-size: 18px;
     line-height: 1.5;
     margin: 90px 0;
@@ -142,12 +142,91 @@ ul {
 
 .card h3 {
     margin-bottom: 0;
+    font-weight: lighter;
 }
 
 .card p {
     margin-top: 6px;
     color: rgb(122, 122, 122);
+    font-weight: lighter;
 
+}
+
+.features-section {
+    background-color: #EEF3F9;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 600px;
+}
+
+.features-section .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features-section .row {
+    display: flex;
+}
+
+.features-section .row .col {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 50px;
+}
+
+.features-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: #2E4051;
+}
+
+.features-section .pitch {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    color: #657380;
+    width: 498px;
+}
+
+.col h4 {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #2E4051;
+}
+
+.col p {
+    margin-top: 8px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #86919D;
+}
+
+.features-section img {
+    width: 498px;
+    height: 268px;
+    transform: rotateY(30deg) rotateX(15deg) rotateZ(-1deg);
+    box-shadow: 10px 10px 50px black;
+}
+
+.features-section a {
+    text-decoration: none;
+    color: #5A89C2;
+}
+
+.features-section a:hover {
+    text-decoration: underline;
+    color: #0048A1;
 }
 
 /* ICONS WITH TEXT SECTION */
