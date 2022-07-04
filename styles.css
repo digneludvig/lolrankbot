@@ -110,7 +110,7 @@ ul {
 
 .container .col-2 {
     transform: rotateY(-30deg) rotateX(15deg);
-    box-shadow: 10px 10px 50px black;
+    box-shadow: 10px 10px 50px rgb(36, 36, 36);
 }
 
 .selling-points-section {
@@ -164,7 +164,7 @@ ul {
     padding-top: 100px;
     padding-right: 300px;
     padding-left: 300px;
-    padding-bottom: 600px;
+    padding-bottom: 250px;
 }
 
 .features-section .right {
@@ -196,6 +196,7 @@ ul {
     font-size: 1.1rem;
     color: #657380;
     width: 498px;
+    line-height: 1.5;
 }
 
 .col h4 {
@@ -216,7 +217,7 @@ ul {
     width: 498px;
     height: 268px;
     transform: rotateY(30deg) rotateX(15deg) rotateZ(-1deg);
-    box-shadow: 10px 10px 50px black;
+    box-shadow: 10px 10px 50px rgb(167, 167, 167);
 }
 
 .features-section a {
@@ -227,6 +228,34 @@ ul {
 .features-section a:hover {
     text-decoration: underline;
     color: #0048A1;
+}
+
+footer {
+    background-color: #EEF3F9;
+    padding-bottom: 40px;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: #A2AEC8;
+    line-height: 1.5;
+}
+
+footer .endorsement {
+    width: 509px;
+}
+
+hr {
+    margin: 0 400px 40px 400px;
+    border-top: 1px solid #D6DADF;
 }
 
 /* ICONS WITH TEXT SECTION */
