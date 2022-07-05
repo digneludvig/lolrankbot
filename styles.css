@@ -239,23 +239,26 @@ footer {
 footer .footer-container {
     display: flex;
     gap: 310px;
-    margin-left: 400px;
-    margin-right: 400px;
-    align-items: center;
-}
 
-footer p {
-    font-size: 1.1rem;
+    align-items: center;
+    font-size: 0.9rem;
     color: #A2AEC8;
     line-height: 1.5;
 }
 
+footer .copyright {
+    white-space: nowrap;
+}
+
 footer .endorsement {
     width: 509px;
+    min-width: 509px;
 }
 
 hr {
-    margin: 0 400px 40px 400px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 1000px;
     border-top: 1px solid #D6DADF;
 }
 
