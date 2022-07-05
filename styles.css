@@ -238,8 +238,7 @@ footer {
 
 footer .footer-container {
     display: flex;
-    gap: 310px;
-
+    justify-content: space-around;
     align-items: center;
     font-size: 0.9rem;
     color: #A2AEC8;
@@ -258,7 +257,7 @@ footer .endorsement {
 hr {
     margin-top: 0;
     margin-bottom: 40px;
-    width: 1000px;
+    width: 80%;
     border-top: 1px solid #D6DADF;
 }
 
